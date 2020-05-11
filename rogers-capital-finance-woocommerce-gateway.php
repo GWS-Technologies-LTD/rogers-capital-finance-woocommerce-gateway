@@ -120,7 +120,16 @@ function wc_rogers_capital_finance_gateway_init() {
                     'title'       => __( 'Instructions', 'wc-rogers-capital-finance-gateway' ),
                     'type'        => 'textarea',
                     'description' => __( 'Instructions that will be added to the thank you page and emails.', 'wc-rogers-capital-finance-gateway' ),
-                    'default'     => 'We will contact you for the rest of the application as soon as possible.',
+                    'default'     => 'Thank you very much for selecting Rogers Capital Finance for this order. Kindly print and sign this order and submit same to any of the following offices to process your application:'.PHP_EOL.
+						'1. Rogers Capital Head Office Port Louis'.PHP_EOL.
+						'2. Rogers Capital Office Jumbo Riche Terre'.PHP_EOL.
+						'3. Rogers Capital Office Jumbo Phoenix'.PHP_EOL.
+						'4. Rogers Capital Office Bagatelle Shopping Mall'.PHP_EOL.
+						'5. Rogers Capital Sub-Office Curepipe'.PHP_EOL.PHP_EOLs.
+						'Please bring along your ID card and the signed order.'.PHP_EOL.PHP_EOL.
+						'First time Rogers Capital Clients should also bring the following documents:'.PHP_EOL.
+						'(i) a utility bill as proof of address'.PHP_EOL.
+						'(ii) Recent pay slip or bank statement for self employed',
                     'desc_tip'    => true,
                 ),
             ) );
